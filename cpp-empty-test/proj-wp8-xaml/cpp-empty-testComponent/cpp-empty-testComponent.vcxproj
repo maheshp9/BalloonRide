@@ -24,6 +24,7 @@
     <DefaultLanguage>en-US</DefaultLanguage>
     <MinimumVisualStudioVersion>11.0</MinimumVisualStudioVersion>
     <WinMDAssembly>true</WinMDAssembly>
+    <ProjectName>BalloonRideComponent</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup>
@@ -189,6 +190,13 @@
     <ClCompile Include="..\..\..\cocos\platform\wp8-xaml\cpp\EditBoxEvent.cpp" />
     <ClCompile Include="..\..\Classes\AppDelegate.cpp" />
     <ClCompile Include="..\..\Classes\HelloWorldScene.cpp" />
+    <ClCompile Include="AnimatedObject.cpp" />
+    <ClCompile Include="Balloon.cpp" />
+    <ClCompile Include="EndScene.cpp" />
+    <ClCompile Include="Enemy.cpp" />
+    <ClCompile Include="EnemyGenerator.cpp" />
+    <ClCompile Include="MainScene.cpp" />
+    <ClCompile Include="StartScene.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\cocos\platform\winrt\pch.h" />
@@ -201,6 +209,13 @@
     <ClInclude Include="..\..\Classes\AppDelegate.h" />
     <ClInclude Include="..\..\Classes\AppMacros.h" />
     <ClInclude Include="..\..\Classes\HelloWorldScene.h" />
+    <ClInclude Include="AnimatedObject.h" />
+    <ClInclude Include="Balloon.h" />
+    <ClInclude Include="EndScene.h" />
+    <ClInclude Include="Enemy.h" />
+    <ClInclude Include="EnemyGenerator.h" />
+    <ClInclude Include="MainScene.h" />
+    <ClInclude Include="StartScene.h" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\..\cocos\2d\libcocos2d_wp8.vcxproj">

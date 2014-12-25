@@ -73,7 +73,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Bin\ARM\Debug</OutputPath>
-    <DefineConstants>DEBUG;TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <DefineConstants>TRACE;DEBUG;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
     <NoStdLib>true</NoStdLib>
     <NoConfig>true</NoConfig>
     <ErrorReport>prompt</ErrorReport>
@@ -108,14 +108,43 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Resources\balloons.plist" />
+    <None Include="Assets\Resources\ipadhd\background.plist" />
+    <None Include="Assets\Resources\ipadhd\balloons.plist" />
+    <None Include="Assets\Resources\ipad\background.plist">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <Content Include="Assets\Resources\ipad\balloons.plist.xml" />
+    <None Include="Assets\Resources\ipad\balloons.plist" />
+    <None Include="Assets\Resources\iphone\background.plist" />
+    <None Include="Assets\Resources\iphone\balloons.plist" />
     <None Include="Properties\AppManifest.xml" />
     <None Include="Properties\WMAppManifest.xml">
       <SubType>Designer</SubType>
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\Resources\balloons.png" />
+    <Content Include="Assets\Resources\ipadhd\balloons.png" />
+    <Content Include="Assets\Resources\ipadhd\bg_duplicate.png" />
+    <Content Include="Assets\Resources\ipadhd\BlueStarEmpty.png" />
+    <Content Include="Assets\Resources\ipadhd\BlueStarFull.png" />
+    <Content Include="Assets\Resources\ipadhd\plane.png" />
+    <Content Include="Assets\Resources\ipadhd\twitter.png" />
+    <Content Include="Assets\Resources\ipad\balloons.png" />
+    <Content Include="Assets\Resources\ipad\bg_duplicate.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Assets\Resources\ipad\BlueStarEmpty.png" />
     <Content Include="Assets\Resources\ipad\BlueStarFull.png" />
+    <Content Include="Assets\Resources\ipad\plane.png" />
+    <Content Include="Assets\Resources\ipad\twitter.png" />
+    <Content Include="Assets\Resources\iphone\balloons.png" />
+    <Content Include="Assets\Resources\iphone\bg_duplicate.png" />
+    <Content Include="Assets\Resources\iphone\BlueStarEmpty.png" />
+    <Content Include="Assets\Resources\iphone\BlueStarFull.png" />
+    <Content Include="Assets\Resources\iphone\plane.png" />
+    <Content Include="Assets\Resources\iphone\twitter.png" />
     <Content Include="SplashScreenImage.jpg" />
     <Content Include="Assets\AlignmentGrid.png" />
     <Content Include="Assets\ApplicationIcon.png">

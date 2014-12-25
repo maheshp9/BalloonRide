@@ -1,5 +1,72 @@
-﻿Build started 12/23/2014 3:58:37 PM.
+﻿Build started 12/23/2014 7:25:42 PM.
+     1>Project "C:\Users\mapa\Desktop\Projects\BalloonRide\cocos\editor-support\spine\proj.wp8\libSpine.vcxproj" on node 4 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\WPSDK\WP80\bin\CL.exe /c /IC:\Users\mapa\Desktop\Projects\BalloonRide\cocos\2d\wp8_props\..\..\..\ /IC:\Users\mapa\Desktop\Projects\BalloonRide\cocos\2d\wp8_props\..\..\..\cocos\audio\include /I"C:\Users\mapa\Desktop\Projects\BalloonRide\cocos\2d\wp8_props\..\..\..\cocos\editor-support" /IC:\Users\mapa\Desktop\Projects\BalloonRide\cocos\2d\wp8_props\..\..\..\extensions /I"C:\Users\mapa\Desktop\Projects\BalloonRide\cocos\2d\wp8_props\..\..\..\external\wp8-specific\angle\include" /I"C:\Users\mapa\Desktop\Projects\BalloonRide\cocos\2d\wp8_props\..\..\..\external\wp8-specific\zlib\include" /IC:\Users\mapa\Desktop\Projects\BalloonRide\cocos\2d\wp8_props\..\..\..\external\freetype2\include\wp8 /IC:\Users\mapa\Desktop\Projects\BalloonRide\cocos\2d\wp8_props\..\..\..\external\curl\include\wp8 /IC:\Users\mapa\Desktop\Projects\BalloonRide\cocos\2d\wp8_props\..\..\..\external\websockets\include\wp8 /IC:\Users\mapa\Desktop\Projects\BalloonRide\cocos\2d\wp8_props\..\..\..\cocos\platform\wp8 /IC:\Users\mapa\Desktop\Projects\BalloonRide\cocos\2d\wp8_props\..\..\..\cocos\platform\winrt /IC:\Users\mapa\Desktop\Projects\BalloonRide\cocos\2d\wp8_props\..\..\..\cocos\platform /I"C:\Users\mapa\Desktop\Projects\BalloonRide\cocos\2d\wp8_props\..\..\..\cocos\editor-support" /IC:\Users\mapa\Desktop\Projects\BalloonRide\cocos\2d\wp8_props\..\..\..\external\chipmunk\include\chipmunk /IC:\Users\mapa\Desktop\Projects\BalloonRide\cocos\2d\wp8_props\..\..\..\external\sqlite3\include /IC:\Users\mapa\Desktop\Projects\BalloonRide\cocos\2d\wp8_props\..\..\..\cocos\audio\include /IC:\Users\mapa\Desktop\Projects\BalloonRide\cocos\2d\wp8_props\..\..\..\cocos /IC:\Users\mapa\Desktop\Projects\BalloonRide\cocos\2d\wp8_props\..\..\..\extensions /IC:\Users\mapa\Desktop\Projects\BalloonRide\cocos\2d\wp8_props\..\..\..\external /IC:\Users\mapa\Desktop\Projects\BalloonRide\cocos\2d\wp8_props\..\..\..\external\edtaa3func /IC:\Users\mapa\Desktop\Projects\BalloonRide\cocos\2d\wp8_props\..\..\..\external\unzip /IC:\Users\mapa\Desktop\Projects\BalloonRide\cocos\2d\wp8_props\..\..\..\external\tinyxml2 /IC:\Users\mapa\Desktop\Projects\BalloonRide\cocos\2d\wp8_props\..\..\..\ /IC:\Users\mapa\Desktop\Projects\BalloonRide\cocos\2d\wp8_props\..\..\..\external\ConvertUTF /IC:\Users\mapa\Desktop\Projects\BalloonRide\cocos\2d\wp8_props\..\..\..\external\xxhash /AI"C:\Program Files (x86)\Windows Phone Kits\8.0\Windows Metadata" /Z7 /nologo /W1 /WX- /MP /Od /Oy- /D WP8 /D _DEBUG /D _LIB /D COCOS2DXWIN32_EXPORTS /D GL_GLEXT_PROTOTYPES /D COCOS2D_DEBUG=1 /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D _LIB /D WP8 /D _VARIADIC_MAX=10 /D NOMINMAX /D GL_GLEXT_PROTOTYPES /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /D WINAPI_FAMILY=WINAPI_FAMILY_PHONE_APP /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TC /wd4267 /wd4251 /wd4244 /wd4056 /wd4996 /wd4244 /wd4251 /analyze- /errorReport:prompt /Zm200 ..\Animation.c ..\AnimationState.c ..\AnimationStateData.c ..\Atlas.c ..\AtlasAttachmentLoader.c ..\Attachment.c ..\AttachmentLoader.c ..\Bone.c ..\BoneData.c ..\BoundingBoxAttachment.c ..\Event.c ..\EventData.c ..\extension.c ..\IkConstraint.c ..\IkConstraintData.c ..\Json.c ..\MeshAttachment.c ..\RegionAttachment.c ..\Skeleton.c ..\SkeletonBounds.c ..\SkeletonData.c ..\SkeletonJson.c ..\Skin.c ..\SkinnedMeshAttachment.c ..\Slot.c ..\SlotData.c
+         Animation.c
+         AnimationState.c
+         AnimationStateData.c
+         Atlas.c
+         AtlasAttachmentLoader.c
+         Attachment.c
+         AttachmentLoader.c
+         Bone.c
+         BoneData.c
+         BoundingBoxAttachment.c
+         Event.c
+         EventData.c
+         extension.c
+         IkConstraint.c
+         IkConstraintData.c
+         Json.c
+         MeshAttachment.c
+         RegionAttachment.c
+         Skeleton.c
+         SkeletonBounds.c
+         SkeletonData.c
+         SkeletonJson.c
+         Skin.c
+         SkinnedMeshAttachment.c
+         Slot.c
+         SlotData.c
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\WPSDK\WP80\bin\CL.exe /c /IC:\Users\mapa\Desktop\Projects\BalloonRide\cocos\2d\wp8_props\..\..\..\ /IC:\Users\mapa\Desktop\Projects\BalloonRide\cocos\2d\wp8_props\..\..\..\cocos\audio\include /I"C:\Users\mapa\Desktop\Projects\BalloonRide\cocos\2d\wp8_props\..\..\..\cocos\editor-support" /IC:\Users\mapa\Desktop\Projects\BalloonRide\cocos\2d\wp8_props\..\..\..\extensions /I"C:\Users\mapa\Desktop\Projects\BalloonRide\cocos\2d\wp8_props\..\..\..\external\wp8-specific\angle\include" /I"C:\Users\mapa\Desktop\Projects\BalloonRide\cocos\2d\wp8_props\..\..\..\external\wp8-specific\zlib\include" /IC:\Users\mapa\Desktop\Projects\BalloonRide\cocos\2d\wp8_props\..\..\..\external\freetype2\include\wp8 /IC:\Users\mapa\Desktop\Projects\BalloonRide\cocos\2d\wp8_props\..\..\..\external\curl\include\wp8 /IC:\Users\mapa\Desktop\Projects\BalloonRide\cocos\2d\wp8_props\..\..\..\external\websockets\include\wp8 /IC:\Users\mapa\Desktop\Projects\BalloonRide\cocos\2d\wp8_props\..\..\..\cocos\platform\wp8 /IC:\Users\mapa\Desktop\Projects\BalloonRide\cocos\2d\wp8_props\..\..\..\cocos\platform\winrt /IC:\Users\mapa\Desktop\Projects\BalloonRide\cocos\2d\wp8_props\..\..\..\cocos\platform /I"C:\Users\mapa\Desktop\Projects\BalloonRide\cocos\2d\wp8_props\..\..\..\cocos\editor-support" /IC:\Users\mapa\Desktop\Projects\BalloonRide\cocos\2d\wp8_props\..\..\..\external\chipmunk\include\chipmunk /IC:\Users\mapa\Desktop\Projects\BalloonRide\cocos\2d\wp8_props\..\..\..\external\sqlite3\include /IC:\Users\mapa\Desktop\Projects\BalloonRide\cocos\2d\wp8_props\..\..\..\cocos\audio\include /IC:\Users\mapa\Desktop\Projects\BalloonRide\cocos\2d\wp8_props\..\..\..\cocos /IC:\Users\mapa\Desktop\Projects\BalloonRide\cocos\2d\wp8_props\..\..\..\extensions /IC:\Users\mapa\Desktop\Projects\BalloonRide\cocos\2d\wp8_props\..\..\..\external /IC:\Users\mapa\Desktop\Projects\BalloonRide\cocos\2d\wp8_props\..\..\..\external\edtaa3func /IC:\Users\mapa\Desktop\Projects\BalloonRide\cocos\2d\wp8_props\..\..\..\external\unzip /IC:\Users\mapa\Desktop\Projects\BalloonRide\cocos\2d\wp8_props\..\..\..\external\tinyxml2 /IC:\Users\mapa\Desktop\Projects\BalloonRide\cocos\2d\wp8_props\..\..\..\ /IC:\Users\mapa\Desktop\Projects\BalloonRide\cocos\2d\wp8_props\..\..\..\external\ConvertUTF /IC:\Users\mapa\Desktop\Projects\BalloonRide\cocos\2d\wp8_props\..\..\..\external\xxhash /AI"C:\Program Files (x86)\Windows Phone Kits\8.0\Windows Metadata" /Z7 /ZW /nologo /W1 /WX- /MP /Od /Oy- /D WP8 /D _DEBUG /D _LIB /D COCOS2DXWIN32_EXPORTS /D GL_GLEXT_PROTOTYPES /D COCOS2D_DEBUG=1 /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D _LIB /D WP8 /D _VARIADIC_MAX=10 /D NOMINMAX /D GL_GLEXT_PROTOTYPES /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /D WINAPI_FAMILY=WINAPI_FAMILY_PHONE_APP /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /wd4267 /wd4251 /wd4244 /wd4056 /wd4996 /wd4244 /wd4251 /FU"C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\WPSDK\WP80\lib\platform.winmd" /FU"C:\Program Files (x86)\Windows Phone Kits\8.0\Windows Metadata\Windows.winmd" /analyze- /errorReport:prompt /Zm200 ..\PolygonBatch.cpp ..\SkeletonAnimation.cpp ..\SkeletonRenderer.cpp "..\spine-cocos2dx.cpp"
+         PolygonBatch.cpp
+         SkeletonAnimation.cpp
+         SkeletonRenderer.cpp
+         spine-cocos2dx.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\WPSDK\WP80\bin\Lib.exe /OUT:"C:\Users\mapa\Desktop\Projects\BalloonRide\cpp-empty-test\proj-wp8-xaml\Debug\libSpine\libSpine.lib" /NOLOGO /IGNORE:4264 Debug\Animation.obj
+         Debug\AnimationState.obj
+         Debug\AnimationStateData.obj
+         Debug\Atlas.obj
+         Debug\AtlasAttachmentLoader.obj
+         Debug\Attachment.obj
+         Debug\AttachmentLoader.obj
+         Debug\Bone.obj
+         Debug\BoneData.obj
+         Debug\BoundingBoxAttachment.obj
+         Debug\Event.obj
+         Debug\EventData.obj
+         Debug\extension.obj
+         Debug\IkConstraint.obj
+         Debug\IkConstraintData.obj
+         Debug\Json.obj
+         Debug\MeshAttachment.obj
+         Debug\PolygonBatch.obj
+         Debug\RegionAttachment.obj
+         Debug\Skeleton.obj
+         Debug\SkeletonAnimation.obj
+         Debug\SkeletonBounds.obj
+         Debug\SkeletonData.obj
+         Debug\SkeletonJson.obj
+         Debug\SkeletonRenderer.obj
+         Debug\Skin.obj
+         Debug\SkinnedMeshAttachment.obj
+         Debug\Slot.obj
+         Debug\SlotData.obj
+         "Debug\spine-cocos2dx.obj"
+         libSpine.vcxproj -> C:\Users\mapa\Desktop\Projects\BalloonRide\cpp-empty-test\proj-wp8-xaml\Debug\libSpine\libSpine.lib
+     1>Done Building Project "C:\Users\mapa\Desktop\Projects\BalloonRide\cocos\editor-support\spine\proj.wp8\libSpine.vcxproj" (Rebuild target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.09
+Time Elapsed 00:00:23.30

@@ -3,7 +3,8 @@
 #include <vector>
 #include <string>
 
-#include "HelloWorldScene.h"
+//#include "HelloWorldScene.h"
+#include "StartScene.h"
 #include "AppMacros.h"
 
 USING_NS_CC;
@@ -29,7 +30,7 @@ bool AppDelegate::applicationDidFinishLaunching() {
     auto director = Director::getInstance();
     auto glview = director->getOpenGLView();
     if(!glview) {
-        glview = GLViewImpl::create("Cpp Empty Test");
+        glview = GLViewImpl::create("Balloon Ride");
         director->setOpenGLView(glview);
     }
 
@@ -38,13 +39,12 @@ bool AppDelegate::applicationDidFinishLaunching() {
     // Set the design resolution
 #if (CC_TARGET_PLATFORM == CC_PLATFORM_WP8)
     // a bug in DirectX 11 level9-x on the device prevents ResolutionPolicy::NO_BORDER from working correctly
-    glview->setDesignResolutionSize(designResolutionSize.width, designResolutionSize.height, ResolutionPolicy::SHOW_ALL);
+	glview->setDesignResolutionSize(designResolutionSize.width, designResolutionSize.height, ResolutionPolicy::SHOW_ALL);
 #else
     glview->setDesignResolutionSize(designResolutionSize.width, designResolutionSize.height, ResolutionPolicy::NO_BORDER);
 #endif
 
 	Size frameSize = glview->getFrameSize();
-    
     vector<string> searchPath;
 
     // In this demo, we select resource according to the frame's height.
@@ -57,21 +57,22 @@ bool AppDelegate::applicationDidFinishLaunching() {
 	{
         searchPath.push_back(largeResource.directory);
 
-        director->setContentScaleFactor(MIN(largeResource.size.height/designResolutionSize.height, largeResource.size.width/designResolutionSize.width));
+        //director->setContentScaleFactor(MIN(largeResource.size.height/designResolutionSize.height, largeResource.size.width/designResolutionSize.width));
 	}
     // if the frame's height is larger than the height of small resource size, select medium resource.
     else if (frameSize.height > smallResource.size.height)
     {
         searchPath.push_back(mediumResource.directory);
         
-        director->setContentScaleFactor(MIN(mediumResource.size.height/designResolutionSize.height, mediumResource.size.width/designResolutionSize.width));
+        //director->setContentScaleFactor(MIN(mediumResource.size.height/designResolutionSize.height, mediumResource.size.width/designResolutionSize.width));
+		
     }
     // if the frame's height is smaller than the height of medium resource size, select small resource.
 	else
     {
         searchPath.push_back(smallResource.directory);
 
-        director->setContentScaleFactor(MIN(smallResource.size.height/designResolutionSize.height, smallResource.size.width/designResolutionSize.width));
+        //director->setContentScaleFactor(MIN(smallResource.size.height/designResolutionSize.height, smallResource.size.width/designResolutionSize.width));
     }
     
     // set searching path
@@ -84,7 +85,8 @@ bool AppDelegate::applicationDidFinishLaunching() {
     director->setAnimationInterval(1.0 / 60);
 
     // create a scene. it's an autorelease object
-    auto scene = HelloWorld::scene();
+    //auto scene = HelloWorld::scene();
+	auto scene = StartScene::scene();
 
     // run
     director->runWithScene(scene);
